@@ -9,4 +9,69 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: black;
+  background-image: url("./images/space.png");
+  background-repeat: no-repeat;
+  background-size: 80rem 80rem;
+  background-position: center;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0rem;
+}
+
+.jason_img {
+  height: 10rem;
+  width: auto;
+  border-radius: 3%;
+}
+
+.head_1 {
+  padding-left: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+blockquote {
+  border: .001px solid white;
+  background-color: white;
+  color: black;
+  padding: .25rem;
+  height: 5rem;
+  border-radius: 3%;
+  text-align: left;
+}
+
+.image_1 {
+  height: 5rem;
+  width: auto;
+  border: .00001px solid black;
+  background-image: url("./images/night_sky.jpg");
+  height: 20rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: black;
+  opacity: 0.6;
+}
+
+li>img {
+  padding: 2rem;
+  height: 11rem;
+}
+
+.code_png {
+  max-width: 75rem;
+  max-height: 10rem;
+  overflow: hidden;
+  height: 100rem;
+  width: 50rem;
 }
