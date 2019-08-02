@@ -31,6 +31,11 @@ body {
   border-radius: 3%;
 }
 
+.jason_img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
 .block {
   border: 1px solid white;
   background-color: white;
@@ -52,6 +57,11 @@ body {
   border: 0.00001px solid black;
   background-image: url('./images/night_sky.jpg');
   height: 20rem;
+}
+
+li > img:hover {
+  opacity: 0.2;
+  cursor: pointer;
 }
 
 ul {
@@ -82,8 +92,19 @@ li > img {
 .reading {
   text-decoration: underline;
   font-weight: bold;
+  color: white;
   text-align: right;
+  justify-content: flex-end;
   padding: 0.5rem;
+  border: 1px solid blue;
+  background-color: blue;
+  height: 1rem;
+  width: 8rem;
+  border-radius: 10%;
+}
+.reading:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 nav {
@@ -104,8 +125,44 @@ nav > h1 {
 .react {
   width: 100%;
   object-fit: fill;
-  height: 10rem;
+  height: 5rem;
   overflow: hidden;
   clip: rect(10, 10, 10, 10);
   border-radius: 3%;
+}
+
+.h2 {
+  font-size: 0.75rem;
+}
+
+.header_img {
+  display: flex;
+  align-items: baseline;
+}
+
+.header-img,
+.lorem {
+  padding: 1rem;
+}
+
+.stay_con {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.sp {
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+.footer > h2 {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.footer {
+  color: white;
+  align-content: center;
+  text-align: center;
+  background-color: black;
 }
