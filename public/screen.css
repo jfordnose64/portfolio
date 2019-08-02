@@ -87,6 +87,7 @@ li > img {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 3%;
+  padding: 1rem;
 }
 
 .reading {
@@ -117,6 +118,10 @@ nav {
   color: black;
 }
 
+article > h1 {
+  font-size: 2rem;
+}
+
 nav > h1 {
   font-weight: bold;
 }
@@ -124,7 +129,7 @@ nav > h1 {
 .code,
 .react {
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
   height: 5rem;
   overflow: hidden;
   clip: rect(10, 10, 10, 10);
@@ -143,6 +148,7 @@ nav > h1 {
 .header-img,
 .lorem {
   padding: 1rem;
+  font-size: 1.1rem;
 }
 
 .stay_con {
